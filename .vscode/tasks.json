@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compile",
+        "type": "shell",
+        "command": "sdcc",
+        "args": [
+          "${file}",
+          "-o",
+          "build/"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  

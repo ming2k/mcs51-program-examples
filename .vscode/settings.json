@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "8051.h": "c",
+        "lint.h": "c"
+    }
+}
