@@ -1,3 +1,13 @@
+/**
+ * @file 0000_light.c
+ * @author your name (you@domain.com)
+ * @brief turn on a light
+ * @version 0.1
+ * @date 2023-12-16
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include <lint.h>
 #include <8051.h>
 

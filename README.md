@@ -1,5 +1,13 @@
+## 51 MCU DEMO
+
+## Prerequiste
+
+### Prepare Hardware
+
 mcs51:  STC89C52RC
 pcb:    YL-39
+
+### Prepare Software
 
 Host Environment:
 
@@ -10,15 +18,14 @@ Editor Environment:
 
 - VSCode with `C/C++ Extension Pack`;
 
-
 ## Usage
 
-Press `ctrl + shift + b` to build the current file to `build/` directory.
+1. Press `ctrl + shift + b` to build the current file to `build/` directory.
 
-Then use the following command:
+2. Use the following command to burn:
 
-```sh
-sudo stcgal build/$fileBaseNoExtension.ihx
-```
+    ```sh
+    sudo stcgal build/$fileBaseNoExtension.ihx
+    ```
 
-re-plugin the power of board.
+3. re-plugin the power of board.

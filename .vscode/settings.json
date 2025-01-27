@@ -2,6 +2,9 @@
     "files.associations": {
         "*.css": "tailwindcss",
         "8051.h": "c",
-        "lint.h": "c"
-    }
+        "lint.h": "c",
+        "random": "c",
+        "8052.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
